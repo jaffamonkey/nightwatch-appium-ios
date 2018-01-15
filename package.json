@@ -1,0 +1,21 @@
+{
+  "name": "nightwatch-examples",
+  "version": "1.0.0",
+  "description": "An example project to illustrate the usage of Nightwatch.js",
+  "author": "Steve Brandt",
+  "scripts": {
+    "endtoend:run": "./node_modules/.bin/nightwatch",
+    "endtoend:runHeadless": "./node_modules/.bin/nightwatch -e chrome-headless"
+  },
+  "keywords": [
+    "nightwatchjs"
+  ],
+  "dependencies": {
+    "nightwatch": "^0.9.19"
+  },
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "nightwatch-custom-commands-assertions": "^1.1.0"
+  }
+}
