@@ -4,8 +4,8 @@
   "description": "An example project to illustrate the usage of Nightwatch.js",
   "author": "Steve Brandt",
   "scripts": {
-    "endtoend:run": "./node_modules/.bin/nightwatch",
-    "endtoend:runHeadless": "./node_modules/.bin/nightwatch -e chrome-headless"
+    "endtoend:run": "./nightwatch",
+    "endtoend:runHeadless": "./nightwatch -e chrome-headless"
   },
   "keywords": [
     "nightwatchjs"
