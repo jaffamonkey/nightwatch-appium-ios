@@ -9,7 +9,7 @@ An example project to illustrate the usage of Nightwatch.js
 | chromedriver | 2.35 |
 
 # Requirements
-* Linux
+* Linux an Darwin (Mac)
 * Chrome is installed
 
 # Install 
@@ -17,9 +17,9 @@ An example project to illustrate the usage of Nightwatch.js
 
 ## Run
 ### chrome
-`./node_modules/.bin/nightwatch`
+`./nightwatch`
 ### chrome-headless
-`./node_modules/.bin/nightwatch -e chrome-headless`
+`./nightwatch -e chrome-headless`
 
 ## Test results are stored in
 
