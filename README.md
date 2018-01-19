@@ -10,7 +10,7 @@ An example project to illustrate the usage of Nightwatch.js
 
 # Requirements
 * Linux an Darwin (Mac)
-* Chrome is installed
+* Chrome 63 is installed
 
 # Install 
 `npm install`
