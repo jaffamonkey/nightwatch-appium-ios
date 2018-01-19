@@ -1,4 +1,11 @@
-.idea/*
+#IntelliJ
+*.iml
+**/*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+atlassian-ide-plugin.xml
 
 # Logs
 logs
