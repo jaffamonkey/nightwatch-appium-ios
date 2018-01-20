@@ -8,10 +8,6 @@ An example project to illustrate the usage of Nightwatch.js
 | selenium-server-standalone | 3.8.1 |
 | chromedriver | 2.35 |
 
-# Requirements
-* Linux an Darwin (Mac)
-* Chrome 63 is installed
-
 # Install 
 `npm install`
 

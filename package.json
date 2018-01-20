@@ -1,12 +1,8 @@
 {
-  "name": "nightwatch-examples",
+  "name": "pure-nightwatch",
   "version": "1.0.0",
-  "description": "An example project to illustrate the usage of Nightwatch.js",
-  "author": "Steve Brandt",
-  "scripts": {
-    "endtoend:run": "./nightwatch",
-    "endtoend:runHeadless": "./nightwatch -e chrome-headless"
-  },
+  "description": "Nightwatch.js with headless Chrome",
+  "author": "jaffamonkey",
   "keywords": [
     "nightwatchjs"
   ],

@@ -6,11 +6,12 @@ module.exports = {
             .assert.title('Google')
             .assert.visible('input[type=text]')
             .setValue('input[type=text]', 'rembrandt van rijn')
-            .waitForElementVisible('button[name=btnG]', 1000)
-            .click('button[name=btnG]')
+            //.waitForElementVisible('.lsb', 2000)
+            ////.click('.lsb')
+            //.waitForElementVisible('input[name=btnK]', 1000)
+            .click('input[name=btnK]')
             .pause(1000)
-            .assert.containsText('ol#rso li:first-child',
-            'Rembrandt - Wikipedia')
+            .assert.containsText('#ires','Rembrandt - Wikipedia')
             .end();
     }
 };
