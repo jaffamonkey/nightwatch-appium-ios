@@ -10,7 +10,7 @@ module.exports = {
             ////.click('.lsb')
             //.waitForElementVisible('input[name=btnK]', 1000)
             .click('input[name=btnK]')
-            .pause(1000)
+            .pause(2000)
             .assert.containsText('#ires','Rembrandt - Wikipedia')
             .end();
     }
