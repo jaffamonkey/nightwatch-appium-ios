@@ -1,9 +1,9 @@
 {
-  "src_folders" : ["tests"],
-  "output_folder" : "reports",
-  "custom_commands_path" : "node_modules/nightwatch-custom-commands-assertions/js/commands",
-  "custom_assertions_path" : "node_modules/nightwatch-custom-commands-assertions/js/assertions",
-  "page_objects_path" : "",
+  "src_folders": ["./tests"],
+  "output_folder": "./reports",
+  "custom_commands_path": "./commands",
+  "page_objects_path": "./page-objects",
+  "custom_assertions_path" : "",
   "globals_path" : "",
 
   "selenium" : {
