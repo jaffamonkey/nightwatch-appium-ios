@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+ruby '2.2.0'
+
+gem 'sinatra'
+gem 'sinatra-flash'
+gem 'sinatra-contrib'
+gem 'shotgun'
+gem 'zurb-foundation'
+gem 'compass'
+gem 'rake'
+gem 'pony'
+gem 'faker'
+gem 'uuid'

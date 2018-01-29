@@ -1,9 +1,22 @@
-language: node_js
-node_js:
-  - "6.10.1"
+matrix:
+  include:
+    - language: ruby
+      - "2.2.0"
 
-before_script:
-  - npm install
+    script:
+      - cd app && bundle install
+      - rackup &
 
-script:
-  - ./nightwatch -e chrome-headless
+    - language: node_js
+      node_js:
+        - "6.10.1"
+
+      before_script:
+        - npm install
+
+      script:
+        - ./nightwatch -e chrome-headless
+
+  notifications:
+    email:
+      - paullittlebury@gmail.com
