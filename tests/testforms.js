@@ -1,7 +1,7 @@
 module.exports = {
     'Demo test form authentication' : function (client) {
         client
-            .url('http://localhost:9292/login')
+            .url('http://the-internet.herokuapp.com/login')
             //.click('a*=Form Authentication')
             .setValue('#username', 'tomsmith')
             .setValue('#password', 'SuperSecretPassword')
