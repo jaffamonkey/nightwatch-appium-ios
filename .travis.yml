@@ -3,9 +3,9 @@ matrix:
     - language: ruby
       - "2.2.0"
 
-    script:
-      - cd app && bundle install
-      - rackup &
+      script:
+        - cd app && bundle install
+        - rackup &
 
     - language: node_js
       node_js:
