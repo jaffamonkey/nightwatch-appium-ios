@@ -7,12 +7,14 @@
     "nightwatchjs"
   ],
   "dependencies": {
-    "nightwatch": "^0.9.19",
+    "nightwatch": "latest",
+    "nightwatch-video-recorder": "^1.1.0",
+    "request": "^2.83.0",
     "selenium-standalone": "latest"
   },
   "private": true,
   "license": "MIT",
   "devDependencies": {
-    "nightwatch-custom-commands-assertions": "^1.1.0"
+    "nightwatch-custom-commands-assertions": "latest"
   }
 }

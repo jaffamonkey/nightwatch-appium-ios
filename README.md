@@ -12,6 +12,7 @@ An example project to illustrate the usage of Nightwatch.js
 `npm install`
 
 ## Run
+
 ### chrome
 `./nightwatch`
 ### chrome-headless
