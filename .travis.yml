@@ -5,6 +5,7 @@ node_js:
 before_script:
   - npm install
   - ./node_modules/.bin/selenium-standalone install
+  - ./node_modules/.bin/selenium-standalone start &
 
 script:
   - ./nightwatch -e chrome-headless
