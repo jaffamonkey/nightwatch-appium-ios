@@ -8,7 +8,7 @@
 
   "selenium" : {
     "start_process" : true,
-    "server_path" : "./tests/node_modules/selenium-server/lib/runner/selenium-server-standalone-3.7.1.jar",
+    "server_path": "./node_modules/selenium-server/lib/runner/selenium-server-standalone-3.7.1.jar",    
     "log_path" : "",
     "host" : "127.0.0.1",
     "port" : 4444,

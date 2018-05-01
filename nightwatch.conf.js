@@ -1,5 +1,4 @@
 module.exports = (function(settings) {
-
     var platform = process.platform;
 
     if(platform === "darwin") {

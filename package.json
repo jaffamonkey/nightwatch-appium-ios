@@ -10,11 +10,9 @@
     "nightwatch": "latest",
     "nightwatch-video-recorder": "^1.1.0",
     "request": "^2.83.0",
-    "selenium-standalone": "latest"
+    "selenium-server": "3.7.1",
+    "selenium-standalone": "6.13.0"
   },
   "private": true,
-  "license": "MIT",
-  "devDependencies": {
-    "nightwatch-custom-commands-assertions": "latest"
-  }
+  "license": "MIT"
 }
