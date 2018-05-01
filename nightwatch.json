@@ -10,7 +10,6 @@
     "start_process" : true,
     "server_path": "./node_modules/selenium-server/lib/runner/selenium-server-standalone-3.7.1.jar",    
     "log_path" : "",
-    "host" : "127.0.0.1",
     "port" : 4444,
     "cli_args" : {
       "webdriver.chrome.driver" : "./node_modules/selenium-standalone/.selenium/chromedriver/2.33-x64-chromedriver"
@@ -21,7 +20,6 @@
     "default" : {
       "launch_url" : "http://localhost",
       "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
       "silent": true,
       "screenshots" : {
         "enabled" : true,
