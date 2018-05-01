@@ -36,6 +36,16 @@
       }
     },
 
+    "ios" : {
+      "desiredCapabilities" : {
+      "browserName" : "Safari",
+      "platformName" : "iOS",
+      "platformVersion" : "11.2",
+      "deviceName" : "iPad Air 2",
+      "noReset": true
+      }
+    },
+
     "chrome-headless" : {
       "desiredCapabilities": {
         "browserName": "chrome",
