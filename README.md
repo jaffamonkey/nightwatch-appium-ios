@@ -42,5 +42,5 @@ $ appium
 [NEW CONSOLE TAB]
 
 ```
-./nightwatch -e ios --tag pagObject
+./nightwatch -e ios --tag pageObject
 ```
