@@ -7,6 +7,7 @@
     "nightwatchjs"
   ],
   "dependencies": {
+    "chromedriver": "latest",
     "nightwatch": "latest",
     "nightwatch-video-recorder": "^1.1.0",
     "request": "^2.83.0",
