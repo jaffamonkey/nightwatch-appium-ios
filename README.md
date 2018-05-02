@@ -27,8 +27,6 @@ Using Appium - in order to run tests against, you will need Xcode installed, to 
 
 Prequisistes:
 XCode 9.2+
-Android Studio SDK
-
 
 There are enough emulators that come with XCode package, but to install, you will need to open from Xmcode app:
 
@@ -44,5 +42,5 @@ $ appium
 [NEW CONSOLE TAB]
 
 ```
-./nightwatch -e ios -- --tag iostest
+./nightwatch -e ios --tag pagObject
 ```

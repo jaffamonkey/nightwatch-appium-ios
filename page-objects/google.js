@@ -1,12 +1,12 @@
 module.exports = {
-  url: 'http://google.com',
+  url: 'https://www.google.com',
   elements: {
     searchBar: {
-      selector: 'input[type=text]'
+      selector: 'input[name="q"]'
     },
     submit: {
-      selector: '//input[@name="btnK"]',
-      locateStrategy: 'xpath'
+      selector: 'input[name="q"]',
+      
     }
   },
   commands: [{

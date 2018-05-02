@@ -6,6 +6,7 @@ module.exports = {
 
     google
       .navigate()
+      .waitForElementVisible('@searchBar', 5000)
       .assert.title('Google')
       .assert.visible('@searchBar')
       .setValue('@searchBar', 'nightwatch')
@@ -17,6 +18,7 @@ module.exports = {
 
     google
       .navigate()
+      .waitForElementVisible('@searchBar', 5000)
       .assert.title('Google')
       .assert.visible('@searchBar')
       .setValue('@searchBar', 'nightwatch')
