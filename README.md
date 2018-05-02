@@ -4,7 +4,7 @@
 ```
 npm install
 ./node_modules/.bin/selenium-standalone install
-./node_modules/.bin/selenium-standalone start &
+
 ```
 ## Run
 
