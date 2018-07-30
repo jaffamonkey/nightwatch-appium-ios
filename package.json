@@ -7,8 +7,8 @@
     "nightwatchjs"
   ],
   "dependencies": {
-    "nightwatch": "latest",
-    "request": "^2.83.0",
+    "nightwatch": "0.9.21",
+    "request": "2.85.0",
     "selenium-standalone": "6.13.0"
   },
   "private": true,
