@@ -3,8 +3,6 @@
 # Install 
 ```
 npm install
-./node_modules/.bin/selenium-standalone install
-
 ```
 ## Run
 
