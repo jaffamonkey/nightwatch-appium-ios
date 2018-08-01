@@ -1,4 +1,4 @@
-# nightwatch-example
+[![Build Status](https://travis-ci.org/jaffamonkey/pure-nightwatchjs4.svg?branch=master)](https://travis-ci.org/jaffamonkey/pure-nightwatch)
 
 # Install 
 ```
