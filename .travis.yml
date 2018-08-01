@@ -8,7 +8,6 @@ addons:
 
 before_script:
   - npm install
-  - ./node_modules/.bin/selenium-standalone install
   - sleep 10
 
 script:
