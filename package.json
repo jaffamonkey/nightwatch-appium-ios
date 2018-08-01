@@ -7,9 +7,10 @@
     "nightwatchjs"
   ],
   "dependencies": {
+    "chromedriver": "latest",
     "nightwatch": "0.9.21",
     "request": "2.85.0",
-    "selenium-standalone": "6.13.0"
+    "selenium-server": "3.8.1"
   },
   "private": true,
   "license": "MIT"

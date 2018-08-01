@@ -12,4 +12,4 @@ before_script:
   - sleep 10
 
 script:
-  - ./nightwatch -e chrome-headless
+  - ./nightwatch -e default
