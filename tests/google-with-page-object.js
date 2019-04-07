@@ -1,7 +1,8 @@
 module.exports = {
+
   '@tags': ['pageObject'],
 
-  'Demo test Google - page object' : (client) => {
+  'Demo test Google - page object': (client) => {
     const google = client.page.google();
 
     google
@@ -13,7 +14,7 @@ module.exports = {
       .click('@submit');
   },
 
-  'Demo test Google - page object command' : (client) => {
+  'Demo test Google - page object command': (client) => {
     const google = client.page.google();
 
     google
@@ -25,7 +26,7 @@ module.exports = {
       .submit();
   },
 
-  after : (client) => {
+  after: (client) => {
     client.end();
   }
 };

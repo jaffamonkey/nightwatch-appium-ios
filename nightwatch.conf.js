@@ -6,23 +6,26 @@ module.exports = {
     output_folder: './reports',
     custom_commands_path: './commands',
     page_objects_path: './page-objects',
-    custom_assertions_path : '',
-    globals_path : '',
+    custom_assertions_path: '',
+    globals_path: '',
     selenium: {
         start_process: true,
         server_path: seleniumServer.path,
         log_path: '',
         host: '127.0.0.1',
-        port: 4444
+        port: 4444,
+        cli_args : {
+            "webdriver.chrome.driver": chromedriver.path
+          }
     },
     test_settings: {
         default: {
-            launch_url: 'http://localhost:8111',
+            launch_url: 'https://www.google.com',
             selenium_port: 4444,
             selenium_host: '127.0.0.1',
-            screenshots : {
-                enabled : true,
-                on_failure : true,
+            screenshots: {
+                enabled: true,
+                on_failure: true,
                 path: './reports/screenshots'
             },
             desiredCapabilities: {

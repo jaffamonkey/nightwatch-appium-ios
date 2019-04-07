@@ -8,9 +8,9 @@
   ],
   "dependencies": {
     "chromedriver": "latest",
-    "nightwatch": "0.9.21",
-    "request": "2.85.0",
-    "selenium-server": "3.8.1"
+    "nightwatch": "latest",
+    "request": "latest",
+    "selenium-server": "latest"
   },
   "private": true,
   "license": "MIT"
