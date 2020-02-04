@@ -12,7 +12,6 @@ npm install
 ```
 
 ### chrome-headless
-
 ```
 ./nightwatch -e chrome-headless
 ```
